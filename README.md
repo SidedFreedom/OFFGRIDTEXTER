@@ -1,5 +1,5 @@
 # OFFGRIDTEXTER
-LoRa Texting Device
+LoRa Texting Device. Program works in the Arduino IDE. Review all setup instructions for the 32u4 board on Adafruit.com. Will need to solder several connections, such as the header pins for the LoRa Feather and OLED FeatherWing, ANO Rotary Encoder, and antenna. Some photos are available at https://youtu.be/B7AfR3zgqps at the end of the video that show key solder points for the ANO Rotary Encoder, which can be a bit tricky. Refer to datasheet on Adafruit.com for details on the ANO Rotary Encoder, or save yourself some heartache and buy their custom PCB.
 
 # Adafruit Store Shopping List:
 
@@ -18,7 +18,7 @@ LoRa Texting Device
 • USB Data cable that fits the LoRa Feather 32u4 (Micro USB to USB is a great cable to use for programming)
 
 
-Works in the Arduino IDE. Review all setup instructions for the 32u4 board on Adafruit.com 
+
 
 
 
