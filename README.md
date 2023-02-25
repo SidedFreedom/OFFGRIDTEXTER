@@ -1,6 +1,10 @@
 # OFFGRIDTEXTER
 LoRa Texting Device. Program works in the Arduino IDE. Review all setup instructions for the 32u4 board on Adafruit.com. Will need to solder several connections, such as the header pins for the LoRa Feather and OLED FeatherWing, ANO Rotary Encoder, and antenna. Some photos are available at https://youtu.be/B7AfR3zgqps at the end of the video that show key solder points for the ANO Rotary Encoder, which can be a bit tricky. Refer to datasheet on Adafruit.com for details on the ANO Rotary Encoder, or save yourself some heartache and buy their custom PCB.
 
+OFFGRID_TEXTER version is for simple messaging only
+
+OFFGRID_TEXTER_beacon adds a submenu on Button C. Submenu option "Beacon" turns your message into a pulse repeated send every 5 or so seconds.
+
 # Adafruit Store Shopping List:
 
 • LoRa Feather 32u4
