@@ -126,7 +126,7 @@ encoder.setPosition(0 / ROTARYSTEPS);
 pinMode(SCB, INPUT_PULLUP);
 
 muneco.reserve(96);
-recvd.reserve(RH_RF95_MAX_MESSAGE_LEN);
+recvd.reserve(96);
   delay(500);
 showme();
 }
@@ -143,7 +143,7 @@ for (i = 1000; i > 0; i--)
 ////////////////////
   if (rf95.available()) {
     // Should be a message for us now   
-    uint8_t buf[RH_RF95_MAX_MESSAGE_LEN];
+    uint8_t buf[96];
     uint8_t len = sizeof(buf);
     
     // Should be a reply message for us now   
