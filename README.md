@@ -5,6 +5,8 @@ OFFGRID_TEXTER version is for simple messaging only
 
 OFFGRID_TEXTER_beacon adds a submenu on Button C. Submenu option "Beacon" turns your message into a pulse repeated send every 5 or so seconds.
 
+OFFGRID_TEXTER_beacon_repeater adds a submenu on Button B. Submenu option "Repeat" turns on Repeater mode - it will rebroadcast any received message automatically. Good for relaying messages when line of sight is not possible between 2 points.
+
 # Adafruit Store Shopping List:
 
 • LoRa Feather 32u4 RFM95 (I have the Americas bandwidth 900 mhz)
