@@ -7,7 +7,7 @@ OFFGRID_TEXTER_beacon adds a submenu on Button C. Submenu option "Beacon" turns 
 
 # Adafruit Store Shopping List:
 
-• LoRa Feather 32u4
+• LoRa Feather 32u4 RFM95 (I have the Americas bandwidth 900 mhz)
 
 • OLED FeatherWing 128 x 64
 
